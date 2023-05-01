@@ -2,7 +2,7 @@
 
 Tasker is an exported asynchronous REST API service.
 
-Once a new task is created, the API returns immediately the UUID and continue the Task on the Background. (fastapi.BackgroundTasks)
+Once a new task is created, the API returns immediately the UUID and continues  the Task on the Background. (fastapi.BackgroundTasks)
 
 Tasker give us the ability to make the following requests:
 
@@ -66,6 +66,7 @@ curl -X 'GET' \
 ```
 * To get Moralis Token please sign  here - https://admin.moralis.io/login
 * Then create your on api key - https://docs.moralis.io/web3-data-api/evm/get-your-api-key
+* The Smart Contract we are monitoring - https://etherscan.io/address/0xa478c2975ab1ea89e8196811f51a7b7ade33eb11#tokentxns
 
 ### GetTaskOutput(UUID: str)
 * UUID - The UUID returns by RunTask(task_name: str, params: dict) endpoint.
